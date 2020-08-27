@@ -1,0 +1,39 @@
+{
+  "global": {
+    "publicIP": "2.100.249.14",
+    "serverName": "DFJ77",
+    "language": "en"
+  },
+  "logger": {},
+  "monitor": {
+    "restarterSchedule": [
+      "04:00",
+      "10:00"
+    ],
+    "heartBeat": {
+      "failThreshold": 15,
+      "failLimit": 30
+    },
+    "healthCheck": {
+      "failThreshold": 15,
+      "failLimit": 300
+    }
+  },
+  "authenticator": {},
+  "webServer": {},
+  "discordBot": {
+    "enabled": true,
+    "token": "NzQ3MDQwNjMwNzQ3ODI0MTQ4.X0JFzQ.Rjwoy47Ky1R1GaoFNsClXi70JB8",
+    "announceChannel": "745438943172100136",
+    "statusCommand": "/status"
+  },
+  "fxRunner": {
+    "serverDataPath": "/home/dom/FXServer/server-data/",
+    "cfgPath": "/home/dom/FXServer/server-data/server.cfg",
+    "commandLine": "",
+    "setPriority": false,
+    "onesync": false,
+    "autostart": true,
+    "quiet": false
+  }
+}

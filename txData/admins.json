@@ -1,0 +1,20 @@
+[
+  {
+    "name": "dom_external",
+    "master": true,
+    "password_hash": "$2a$11$/9cP7hutR92.U/dhlXi0bek1J5DIKpszXFpQME42X/ZexGLLu0Xaa",
+    "providers": {
+      "citizenfx": {
+        "id": "dom_external",
+        "data": {
+          "nameid": "https://forum.cfx.re/internal/user/1069703",
+          "name": "dom_external",
+          "profile": "https://forum.cfx.re/u/dom_external",
+          "picture": "https://forum.cfx.re/user_avatar/forum.cfx.re/dom_external/256/580487_2.png",
+          "sub": "3e7b878827c209a774041b75b35f58f3f7ecc0262020ceee4dd769b688b38a08"
+        }
+      }
+    },
+    "permissions": []
+  }
+]
